@@ -24,3 +24,5 @@ app.use("/api", router);
 router.get("/users", (req, res) => {
   res.send({ message: "Get users" });
 });
+
+module.exports = app;
